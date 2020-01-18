@@ -11,9 +11,7 @@ module.exports = {
         .setTimestamp()
         .setFooter(client.user.username)
         .setDescription("Use `g!help <cmd name>` to gain command info!")
-        .addField("GENERAL", "trial?")
         .addField("MUSIC", "`play`, `stop`, `pause`, `resume`, `queue`, `skip`, `volume`, `nowplaying`")
-        .addField("MODERATION", "`kick`, `ban`, `softban`, `mute`, `tempmute`, `unmute`, `purge`, `addrole`, `takerole`, `createrole`, `deleterole`")
         .setColor("RANDOM")
         message.channel.send(embed.setAuthor(message.author.username, message.author.displayAvatarURL))
         }
