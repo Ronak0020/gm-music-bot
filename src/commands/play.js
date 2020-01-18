@@ -24,7 +24,7 @@ module.exports = {
                 type: 'video',
                 maxResults: 1,
                 q: query,
-                key: "AIzaSyBmJU3L-CnuIZImSJSBosDyvy_3nblsW9U"
+                key: process.env.key
             });
         if (!body.items.length) return message.channel.send('No results found for ' + query + ".");
 
