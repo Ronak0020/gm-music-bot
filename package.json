@@ -1,0 +1,32 @@
+{
+  "name": "giveaway-magic-music",
+  "version": "1.0.0",
+  "description": "giveaway magic server's music bot",
+  "main": "src/index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0",
+    "jimp": "^0.9.3",
+    "opusscript": "^0.0.6",
+    "snekfetch": "^4.0.4",
+    "ytdl-core-discord": "amishshah/ytdl-core-discord"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-aqua": "^4.4.1"
+  },
+  "optionalDependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "erlpack": "discordapp/erlpack",
+    "node-opus": "^0.3.1",
+    "zlib-sync": "^0.1.4"
+  },
+  "eslintConfig": {
+    "extends": "aqua/node"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronak",
+  "license": "ISC"
+}
