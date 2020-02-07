@@ -13,7 +13,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 	console.log('READY!');
-	client.user.setActivity("Music", {type: "PLAYING"})
+	client.user.setActivity("g!help", {type: "PLAYING"})
 });
 client.on('message', message => {
 	const prefix = "g!";
